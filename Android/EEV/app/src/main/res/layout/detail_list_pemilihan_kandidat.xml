@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/detail_list_pemilhan_kandidat_imagegambar"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center_horizontal" />
+
+       <TextView
+           android:id="@+id/detail_list_pemilhan_kandidat_namakandidat"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="15dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center_horizontal"
+           android:text="Nama Kandidat"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Slogan"
+               android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+           <TextView
+               android:id="@+id/detail_list_pemilhan_kandidat_slogan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Slogan"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Tanggal Lahir"
+               android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+           <TextView
+               android:id="@+id/detail_list_pemilhan_kandidat_tanggallahir"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Tanggal Lahir"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alamat"
+               android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+           <TextView
+               android:id="@+id/detail_list_pemilhan_kandidat_alamat"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alamat"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Keterangan"
+               android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info" />
+
+           <TextView
+               android:id="@+id/detail_list_pemilhan_kandidat_keterangan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Keterangan"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+       </LinearLayout>
+        <Switch
+            android:id="@+id/detail_list_pemilhan_kandidat_switch"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#f3707070"
+            android:text="Saya yakin memilih kandidat ini tampa ada paksaan dari siapapun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+       <LinearLayout
+           android:gravity="right"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:id="@+id/detail_list_pemilhan_kandidat_btnPilih"
+               android:layout_marginTop="25dp"
+               android:layout_gravity="center_horizontal"
+               android:paddingRight="25dp"
+               android:paddingLeft="25dp"
+               android:text="PILIH"
+               android:layout_width="140dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+   </LinearLayout>
+</ScrollView>
